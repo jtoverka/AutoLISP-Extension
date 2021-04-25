@@ -10,6 +10,10 @@ namespace Tester
 {
     public static class NetFunctions
     {
+        /// <summary>
+        /// Test
+        /// </summary>
+        /// <param name="buffer"></param>
         [LispFunction("ADN-f894e51b-3905-4fe0-aef1-743aa83db0b9")]
         public static void Test(ResultBuffer buffer)
         {
