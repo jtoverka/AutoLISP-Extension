@@ -1,0 +1,16 @@
+;;; VLisp project file [V2.0] LispError saved to:[C:/Users/Joshua.Overkamp/Documents/LispError] at:[1/20/21] 
+(VLISP-PROJECT-LIST
+  :name
+  LispError
+  :own-list
+  ("LispError")
+  :fas-directory
+  nil
+  :tmp-directory
+  nil
+  :project-keys
+  (:BUILD (:standard) :MERGED T :SAFE-MODE T :MSGLEVEL 2)
+  :context-id
+  :AUTOLISP
+)
+;;; EOF

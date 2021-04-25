@@ -1,0 +1,12 @@
+;;; Visual LISP make file [V1.0] LispError saved to:[C:/Users/Joshua.Overkamp/Documents/LispError] at:[1/20/21] 
+(PRV-DEF (:target . "LispError.VLX")
+	 (:active-x)
+	 (:separate-namespace . T)
+	 (:protected . T)
+	 (:load-file-list (:lsp "LispError.lsp"))
+	 (:require-file-list)
+	 (:ob-directory)
+	 (:tmp-directory)
+	 (:optimization . lsa)
+)
+;; EOF

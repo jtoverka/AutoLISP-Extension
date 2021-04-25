@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31129.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoLISP Extension", "AutoLISP Extension\AutoLISP Extension.csproj", "{DEA9020E-A0CF-4DBA-B1DA-C3F09F7352EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tester", "Tester\Tester.csproj", "{BF67B11F-3829-49D2-B42A-5F7E193F4C4D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DEA9020E-A0CF-4DBA-B1DA-C3F09F7352EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEA9020E-A0CF-4DBA-B1DA-C3F09F7352EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEA9020E-A0CF-4DBA-B1DA-C3F09F7352EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEA9020E-A0CF-4DBA-B1DA-C3F09F7352EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF67B11F-3829-49D2-B42A-5F7E193F4C4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF67B11F-3829-49D2-B42A-5F7E193F4C4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF67B11F-3829-49D2-B42A-5F7E193F4C4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF67B11F-3829-49D2-B42A-5F7E193F4C4D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {74F073DB-4A93-4D6B-9FAA-57324806C6F9}
+	EndGlobalSection
+EndGlobal
