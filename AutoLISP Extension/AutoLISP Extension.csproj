@@ -58,7 +58,9 @@
     <None Include="LispError\LispError.ob" />
     <None Include="LispError\LispError.prj" />
     <None Include="LispError\LispError.prv" />
-    <None Include="LispError\LispError.VLX" />
+    <None Include="LispError\LispError.VLX">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Content Include="LispError\LispError.pdb" />
