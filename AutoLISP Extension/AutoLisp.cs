@@ -294,7 +294,7 @@ namespace NetDBX
                 return null;
 
             if (values[index].TypeCode != (short)LispDataType.ListBegin)
-                throw new ArgumentException($"invalid argument type <{typeof(List<object>)}>: <{values[index].Value.GetType()}> {values[index].Value}");
+                throw new ArgumentException($"invalid argument type <{typeof(List<TypedValue>)}>: <{values[index].Value.GetType()}> {values[index].Value}");
 
             int count = 1;
             return values
