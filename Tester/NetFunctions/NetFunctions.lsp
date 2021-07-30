@@ -2,7 +2,7 @@
 (vl-load-com)
 (vl-acad-defun 'ThrowLispError)
 (defun net-invoke (xFunction args / sym Handler Message Result)
-  (setq sym (vl-symbol-value xFunction))
+	(setq sym (vl-symbol-value xFunction))
 	(and
 		(not
 			(or
@@ -19,10 +19,16 @@
 	(defun *error* (msg /)
 		(setq Message msg)
 	)
-	(setq Result (apply xFunction args))
+	(setq Result (vl-catch-all-apply xFunction args))
 	(setq *error* Handler)
 	(and
-		Message
+		(or
+			Message
+			(and
+				(vl-catch-all-error-p Result)
+				(setq Message (vl-catch-all-error-message Result))
+			)
+		)
 		(ThrowLispError Message)
 	)
 	Result

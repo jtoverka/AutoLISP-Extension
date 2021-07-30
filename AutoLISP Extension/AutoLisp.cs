@@ -116,6 +116,20 @@ namespace NetDBX
         /// <returns>The value as TypedValue.</returns>
         public static TypedValue GetLispValue(this SelectionSet ss) => new TypedValue((short)LispDataType.SelectionSet, ss);
 
+        /// <summary>
+        /// Gets the value as a TypedValue
+        /// </summary>
+        /// <param name="point">Instance of Point3d which the method applies to.</param>
+        /// <returns>The value as TypedValue.</returns>
+        public static TypedValue GetLispValue(this Point3d point) => new TypedValue((short)LispDataType.Point3d, point);
+
+        /// <summary>
+        /// Gets the value as a TypedValue
+        /// </summary>
+        /// <param name="point">Instance of Point2d which the method applies to.</param>
+        /// <returns>The value as TypedValue.</returns>
+        public static TypedValue GetLispValue(this Point2d point) => new TypedValue((short)LispDataType.Point2d, point);
+
         #endregion
 
         #region TypedValue -> Type .NET
