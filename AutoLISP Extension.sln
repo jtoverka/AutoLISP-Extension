@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoLISP Extension", "AutoL
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tester", "Tester\Tester.csproj", "{BF67B11F-3829-49D2-B42A-5F7E193F4C4D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetAutoLISP", "NetAutoLISP\NetAutoLISP.csproj", "{E233D2DE-5DAE-4359-A1AD-AF056D59601F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{BF67B11F-3829-49D2-B42A-5F7E193F4C4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BF67B11F-3829-49D2-B42A-5F7E193F4C4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BF67B11F-3829-49D2-B42A-5F7E193F4C4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E233D2DE-5DAE-4359-A1AD-AF056D59601F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E233D2DE-5DAE-4359-A1AD-AF056D59601F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E233D2DE-5DAE-4359-A1AD-AF056D59601F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E233D2DE-5DAE-4359-A1AD-AF056D59601F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
